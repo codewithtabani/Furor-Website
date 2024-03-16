@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        		body{
+			background-image: url(images/natural.jpg);
+		}
+
+		#box{
+			background:darkslategray;
+			opacity: 0.7;
+			width:475px;
+			min-height: 250px;
+			border-radius: 15px;
+			position:relative;
+			top: 100px;
+			left:27.5% ;
+			padding: 5px 30px;
+			box-shadow: 5px 5px 10px 3px lightgray;
+			padding-bottom: 20px;
+            margin-bottom: 200px;
+
+		}
+
+        
+
+		h1{
+			text-align: center;
+			color: black;
+		}
+		input{
+			background: white;
+			height: 50px;
+			border: 1px solid transparent;
+		}
+		label{
+			color: white;
+		}
+		#first {
+			background-color: darkorange;
+			width: 175px;
+			height: 35px;
+			color: white;
+			border: 0px solid white;
+            
+		}
+        fieldset{
+            border: 1px solid red;
+        }
+        legend{
+            font-size: 25px;
+            color: white;
+        }
+        .subbox{
+            border-bottom:1px solid white;
+            border-radius:10px 10px 0 0;
+            background-color: black;
+            color: white;
+
+        }
+        .subbox:hover{
+           border-bottom:2px solid red;
+        }
+        .label1{
+            position: absolute;
+            top: 55px;
+            margin-left: 100px;
+          
+        }
+        .label2{
+            position: absolute;
+            top:420px;
+            margin-left: 150px;
+        }
+        textarea::placeholder{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div id="Furor">
+            <h2><a href="index.html" style="text-decoration: none;color:white;">𝔽𝕌ℝ𝕆ℝ</a></h2>
+        </div>
+        <div  class="item" id="item9">
+            <a href="index.html" class="anchor">Home</a>
+        </div>
+
+        </div>
+
+        <div class="item" id="item2">
+            <a href="men.html" >Men</a> 
+            <br><br>          
+            <div id="content">
+            
+                <a href="shirts.html" class="anchor2">Shirts</a>
+                <a href="jeans.html" class="anchor2">Jeans</a>
+                <a href="shoes.html" class="anchor2">Shoes</a>
+                <a href="wallet.html" class="anchor2">Wallet</a>
+                
+            </div>
+
+        </div>
+
+
+        <div class="item" id="item3">
+        <a href="women.html" class="anchor">Women</a>
+        <br><br>
+        <div id="content2">
+            <a href="shirts2.html" class="anchor2">Shirts</a>
+            <a href="jeans2.html" class="anchor2 ">Jeans</a>
+            <a href="socks.html" class="anchor2">Socks</a>
+        </div>
+        </div>
+
+        
+        <div class="item" id="item6"><a href="sale.html" class="anchor">Sale</a></div>
+        <div class="item" id="item7"><a href="feedback.html" class="anchor">Feedback</a></div>
+        <div class="item" id="item8"><a href="login.html" class="anchor">Login</a></div>
+        <div class="item" id="item10"><a class="anchor" href="mailto:mudassirtabani@gmail.com">Email Us</a></div>
+        <div id="icon1"><a href="https://wa.me/whatsapp03233211789 text=Thanks For Order Now" class="anchor"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+       
+    </div>
+
+    <hr style="background-color: lghtcyani;height: 2px;">
+
+    <br><br>
+
+    <h1>Feedback</h1>
+
+    
+    <div id="box">
+    <form action="http://www.example.com/subscribe.php"
+    method="get">
+        <fieldset>
+            <legend>Contact Details</legend>
+            <br>
+            <label for="Name">FULL NAME*
+                <br>
+            <input type="text" name="Name" id="Name" class="subbox" >
+            </label>
+
+            <label for="contact" class="label1">Phone Number*
+                <br>
+                <input type="number" name="contact" id="contact" class="subbox" style="border-bottom: 2px solid red;" >
+            </label>
+
+            <br><br>
+
+            <label for="email">EMAIL*
+                <br>
+                <input type="email" name="Email" id="email" class="subbox" style="width: 100%;">
+            </label>
+
+            <br><br>
+
+            <label for="Choose">Feedback Channel
+                <br>
+            <select name="Feedback Channel" id="Choose" class="subbox" style="height: 50px;">
+                <option value="" disabled selected style="color: white;background-color: blue;">Choose how you purchase</option>
+                <option value="went and buy">went and buy</option>
+                <option value="Delivery">Delivery</option>
+            </select>
+             </label>
+        </fieldset>
+
+        <br><br><br>
+
+        <fieldset>
+            <legend>About Your Visit</legend>
+            <br>
+    
+            <label for="Select Store">Select Store
+                <br>
+                <select name="Select Store" id="Select Store" class="subbox" style="height: 50px;">
+                    <option value="" disabled selected style="color: white;background-color: black;">Select Store</option>
+                    <option value="">Shahbaz</option>
+                    <option value="Boat Basin">Boat Basin</option>
+                    <option value="Defence">Defence</option>
+                    <option value="F.B Area">F.B Area</option>
+                    <option value="N.Nazimabad">N.Nazimabad</option>
+                    <option value="North Karachi">North Karachi</option>
+                    <option value="Korangi">Korangi</option>
+                    <option value="Shr-e-Faisal">Shr-e-Faisal</option>
+                    <option value="">Garden</option>
+                    <option value="">Saddar(Atrium Mall)</option>
+                    <option value="Malir Cantt">Malir Cantt</option>
+                    <option value="JAUHAR">JAUHAR</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Gulshan 2">Gulshan 2</option>
+                    <option value="Bahadarbad">Bahadarbad</option>
+                    <option value="Gulshan 2">Gulshan 2</option>
+                    <option value="Sukkur">Sukkur</option>
+                    <option value="Okara">Okara</option>
+                    <option value="Bahawalpur">Bahawalpur</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Peshawar">Peshawar</option>
+                </select>
+            </label>
+    
+            <label for="DATE" class="label2">DATE
+                <br>
+                <input type="date" name="Date" id="DATE" class="subbox">
+            </label>
+    
+            <br><br>
+    
+            <label for="FB" >FEEDBACK TYPE
+                <br>
+                <select name="Feedback type" id="FB" class="subbox" style="height: 50px;width: 100%;">
+                    <option value="" disabled selected style="color: white;background-color: black;">Choose your Feedback Type</option>
+                    <option value="Comments">Comments</option>
+                    <option value="Suggestions">Suggestions</option>
+                    <option value="Questions">Questions</option>
+                </select>
+            </label>
+    
+            <br><br>
+    
+            <textarea name="" id="" cols="30" rows="10" placeholder="FEEDBACK MESSAGE" class="subbox"  style="width: 100%;"></textarea>
+            </fieldset>
+        
+            <br><br>
+
+            <center><input type="submit" value="Submit" id="first"></center>
+        
+        </div>
+</form>
+
+
+       
+
